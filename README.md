@@ -1,5 +1,5 @@
 # dell-ecs-s3-client
-![alt text](https://raw.githubusercontent.com/vidu171/dell-ecs-s3-client/main/logo.png "Dell")
+![alt text](https://raw.githubusercontent.com/vidu171/dell-ecs-s3-client/main/logo.png | width=100 "Dell")
 
 Golang client for Dell EMC s3 storage
 
