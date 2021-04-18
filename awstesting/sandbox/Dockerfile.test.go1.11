@@ -1,0 +1,10 @@
+FROM golang:1.11
+
+ADD . /go/src/github.com/vidu171/dell-ecs-s3-client
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+		vim \
+	&& rm -rf /var/list/apt/lists/*
+
+WORKDIR /go/src/github.com/vidu171/dell-ecs-s3-client
+CMD ["make", "get-deps", "get-deps-x-tests", "get-deps-verify", "unit"]
