@@ -1,4 +1,4 @@
-package dell_ecs_s3_client
+package dells3
 
 import (
 	"io"
