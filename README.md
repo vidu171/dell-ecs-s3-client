@@ -1,5 +1,5 @@
 # dell-ecs-s3-client
-<img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="18" height = "18"/>
+<img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="100" height = "100"/>
 Golang client for Dell EMC s3 storage
 
 The dell-ecs-s3-client is a modified module for Delll ECS s3 storage.
